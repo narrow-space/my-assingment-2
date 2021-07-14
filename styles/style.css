@@ -1,0 +1,73 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap');
+body{font-family: 'Poppins', sans-serif;}
+
+
+.container{display: flex;
+background-color: rgb(40, 40, 161);
+height: 450px;
+
+
+}
+.info{   margin-left: 100px;
+    padding-top: 60px;
+}
+
+
+.info h1 {font-size: 35px;
+color: white;
+}
+.info p{color: white;
+background-color:rgb(255, 0, 157);
+width: 110px;
+padding: 5px;}
+
+
+
+
+
+.pic img{width: 45%;
+    margin-left: 300px;
+    padding-top: 60px;
+}
+
+
+/* ------------ */
+/* player css  */
+/* ------------ */
+
+.players{margin-top: 70px;
+}
+.all-player{display: grid;
+grid-template-columns: repeat(3,1fr);
+/* border: 1px solid red; */
+margin-left: 200px;
+margin-right: 150px;
+
+}
+
+.player img{width:280px;
+height: 256px;}
+.player h3{font-size: 25px;
+          }
+.player p{font-size: 14px;
+padding:8px;
+color: gray;
+}
+
+/*----------
+    footer 
+-----------*/
+
+.footer-itmes img{width: 20%;
+    margin:10px 500px;
+    padding-top: 100px;
+}
+.icon{font-size: 20px;
+    color: rgb(14, 99, 155);
+margin-left: 570px;
+padding:30px;
+width: 120px;
+height: 50px}
+.copyright{text-align: center;
+height: 100px;}
