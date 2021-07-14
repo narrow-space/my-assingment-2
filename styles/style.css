@@ -18,7 +18,7 @@ height: 450px;
 
 
 }
-.info{   margin-left: 100px;
+.info{margin-left: 100px;
     padding-top: 60px;
 }
 
@@ -80,3 +80,18 @@ width: 120px;
 height: 50px}
 .copyright{text-align: center;
 height: 100px;}
+
+/*--------------
+Media-quries 
+-------------*/
+
+/*--------------
+Mobile_devices 
+--------------*/
+@media only screen and (max-width:688px){
+    .container{height: 900px;
+        flex-direction: column;}
+    .pic img{width: 100%;margin-left: 40px;}
+    
+}
+.all-player{display: none;}
